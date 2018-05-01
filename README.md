@@ -18,8 +18,5 @@ Step 2: the page shows the test "Data successfully written and saved".
 Step 3: the above test run - determines that the output is being written to the JSON file - results.json.
 Step 4: open the json file and see the desired output.
 
-NOTES:
-  * I have not scraped the first page accordingly to the category Digitialia as the classname category-workblog was not producing any results.
-  * I have found the total characters of the file written and not included the file size in the file.
   
   
