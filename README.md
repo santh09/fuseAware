@@ -1,58 +1,25 @@
 # fuseAware
 
-fuseAware Technical Test by Santhana
-The following script is used to web scrape the first page under the post category "work-blog"
+fuseAware
+
+The following script is used to web scrape the first page under the post category "work-blog" and to produce the required 
+json file.
 
 Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Prerequisites
-What things you need to install the software and how to install them
+1.) Prerequisites
+   Need PHP version > 5. 
+   Upload the files web_scrape.php and results.json in same folder in remote server.
 
-Give examples
-Installing
-A step by step series of examples that tell you have to get a development env running
+Running the Code
 
-Say what the step will be
+Step 1 : run the PHP file web_scrape.php in a remote server. 
+Step 2: the page shows the test "Data successfully written and saved".
+Step 3: the above test run - determines that the output is being written to the JSON file - results.json.
+Step 4: open the json file and see the desired output.
 
-Give the example
-And repeat
-
-until finished
-End with an example of getting some data out of the system or using it for a little demo
-
-Running the tests
-Explain how to run the automated tests for this system
-
-Break down into end to end tests
-Explain what these tests test and why
-
-Give an example
-And coding style tests
-Explain what these tests test and why
-
-Give an example
-Deployment
-Add additional notes about how to deploy this on a live system
-
-Built With
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
-Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
-Versioning
-We use SemVer for versioning. For the versions available, see the tags on this repository.
-
-Authors
-Billie Thompson - Initial work - PurpleBooth
-See also the list of contributors who participated in this project.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-Acknowledgments
-Hat tip to anyone who's code was used
-Inspiration
-etc
+NOTES:
+  * I have not scraped the first page accordingly to the category Digitialia as the classname category-workblog was not producing any results.
+  * I have found the total characters of the file written and not included the file size in the file.
+  
+  
